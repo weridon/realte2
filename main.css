@@ -156,22 +156,19 @@ a:active {
 
 .title{
 	position: relative;
-	margin-bottom: 10px;
 	font-size: 20px;
-	font-weight: 400px;
 	font-family:Times,serif;
 	color: #000000;
 }
 .post-meta{
-	margin-bottom: 15px;
-	font-size: 10px;
+	font-size: 14px;
 	color: #9F9F9F;
 	line-height: 11px;
 	margin-bottom: 15px;
 }
 .post-meta img{
 	width: 14px;
-	height: 14px;
+	height: 12px;
 	margin: 0 5px;
 }
 .entry p{
@@ -183,11 +180,11 @@ a:active {
 }
 .post-bottom{
 	font-family: Verdana,sans-serif;
-	font-size: 10px;
+	height: 32px;
 	text-decoration: none;
-	width: 612px;
-	padding: 10px 20px 0 20px;
+	padding: 0px 25px;
 	background: url(img/c.jpg) repeat;
+        border-bottom: 1px solid #999999;
 }
 .post-bottom a{
 	font-family: Verdana,sans-serif;
@@ -262,6 +259,11 @@ a:active {
     line-height: 14px;
     padding: 12px 14px 0;
     height: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+.widget h2{
+	border-bottom: 1px solid #EDEDED;
+        height: 35px;
 }
 .textxidget img{
 	width:268px; 
