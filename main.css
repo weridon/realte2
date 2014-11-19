@@ -287,6 +287,10 @@ a:active {
 	font-family: Verdana,sans-serif;
 	font-size: 13px;
 }
+.ding a{
+	margin: 5px;
+}
+
 
 .footer{
 	background-color: #999999;
