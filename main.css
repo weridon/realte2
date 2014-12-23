@@ -75,16 +75,25 @@ a:active {
 }
 
 .mit{
-	padding:7px 25px 0px 12px;
-	width: 156px;
-	border-radius:5px;
-	background-color: #e4e4e4;
 	float:right;
-}
-.mit img{
-	float: right;
+	position: relative;
 }
 
+.word{
+	padding: 7px 25px 8px 12px;
+	font-size: 14px;
+	width: 144px;
+	background: #e3e4e3;
+	border-radius:5px;
+        outline:none;
+
+}
+.se{
+	position: absolute;
+	top: 6px;
+	right: 15px;
+        outline:none;
+}
 .secnav{
 	height: 25px;
 	position:relative;
