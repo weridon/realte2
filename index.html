@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,7 +6,7 @@
         <link type="image/x-icon" href="img/tubiao.ico" rel="shortcut icon">
   	<title>邻居的耳朵|有观点的聆听</title>
 </head>
-<body onload="autoStart()">
+<body>
 	<div class="quan">
 	    <div class="header-col">
 	        <div class="header">
@@ -22,17 +22,12 @@
 				    <li class="page_item2"><a href="#">音乐墙</a></li>
 				    <li class="page_item2"><a href="">音乐仓库</a></li>
 				    <li class="page_item2"><a href="">作者专栏</a></li>
-				    <li class="page_item2"><a href="#">关于我们</a></li>				
+				    <li class="page_item2"><a href="#">关于我们</a></li>
+				    <li class="page_item2"><a href="">多米DJ</a></li>				
 			</ul>
 			<div class="mit">
-                <form name="f1" action="http://www.baidu.com/baidu" id="searchform">
-                    <div>
-                        <input type="text" class="word" value="搜索" onfocus="if (this.value == '搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '搜索';}">
-                        <input type="image" class="se" src="img/ico-search.png""百度搜索"/>
-                    </div>
-                </form>
-               
-            </div>
+				<span>搜索<a href="#"><img src="img/ico-search.png"/></a></span>
+			</div>
 	          </div>
 
 		        <div class="cat-nav">
@@ -56,103 +51,9 @@
 	    </div>
 
 
-        <div id="all">
+         <div id="all">
 
 	     <div class="col-left">
-            <div class="foncus">
-            <div onmouseover="autoStop()" onmouseout="autoStart()">
-                <ul id="focus-nav" onmouseover="move()">
-                <li>
-                    <a href="http://ear.duomi.com/?p=300810">
-                        <p>此心安处即吾乡</p>
-                    </a>
-                </li>
-                <li> 
-                    <a href="http://ear.duomi.com/?p=300810">
-                        <p>the fault in our star</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://ear.duomi.com/?p=300810">
-                        <p>【沙粒FM】遇见后告别</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://ear.duomi.com/?p=300810">
-                        <p>一个故事</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://ear.duomi.com/?p=300810">
-                        <p>我怀念的</p>
-                    </a>
-                </li>
-                </ul>
-           </div>
-           <div>
-                <div id="focus-cont" onmouseover="autoStop()" onmouseout="autoStart()">
-                    <ul>
-                        <li>
-                            <a href="http://ear.duomi.com/?p=300810" >
-                                <img src="img/11.jpg"/>
-                           </a>
-                        </li>
-                         <li>
-                            <a href="http://ear.duomi.com/?p=300810" >
-                                <img src="img/22.jpg"/>
-                           </a>
-                        </li>
-                         <li>
-                            <a href="http://ear.duomi.com/?p=300810" >
-                                <img src="img/33.jpg"/>
-                           </a>
-                        </li>
-                         <li>
-                            <a href="http://ear.duomi.com/?p=300810" >
-                                <img src="img/44.jpg"/>
-                           </a>
-                        </li>
-                         <li>
-                            <a href="http://ear.duomi.com/?p=300810" >
-                                <img src="img/55.jpg"/>
-                           </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-           </div>
-    
-        </div>
-     
-        <div class="box">
-                        <div class="post">
-                                <a href="#">
-                                        <img src="img/44.jpg" title="the fault in our star"/>
-                                </a>
-                                <h2 class="title"><a href="#">the fault in our star</a></h2>
-                                <p class="post-meta">
-                                        <img src="img/ico-time.png"/>2014年12月22日
-                                        <img src="img/ico-comment.png"/>53个评论
-                                </p>
-                                <div class="entry">
-                                        <p>我们知道，0和1之间有无数的数字，可以是0.1,0.12,0.112…这么些无限集合蕴含在我的生命里，有什么是不可能的呢？我想的，只要我能一直想，总有一天是会我的。</p>
-                                        <span>
-                                              <a href="#" class="readmore">阅读全文及试听</a>
-                                        </span>
-                                </div>
-                        </div>
-                        <div class="post-bottom">
-                           <div class="poleft">
-                                      <img src="img/a.jpg"/>
-                              <a href="#">原声</a>         
-                               </div>
-                                <div class="poright">
-                                      <img src="img/b.jpg"/>
-                                      <a href="#">14th</a>, <a href="#">ed sheeran</a>,<a href="#">电影原声</a>
-                                </div>
-                        </div>
-            </div> 
-
             	
 	        <div class="box">
                         <div class="post">
@@ -184,7 +85,7 @@
                                 </div>
                         </div>
 	        </div>
-         
+        
         
 	        <div class="box">
                         <div class="post">
@@ -215,7 +116,7 @@
                         </div>
 	        </div> 
 
-            <div class="box">
+                <div class="box">
                         <div class="post">
                                 <a href="#"><img src="img/3.jpg" title="【Mr.Salt】死亡"/></a>
                                 <h2 class="title"><a href="#">【Mr.Salt】死亡</a></h2>
@@ -241,36 +142,7 @@
                                 </div>
                         </div>
 	        </div>
-            <div class="box">
-                        <div class="post">
-                                <a href="#">
-                                        <img src="img/55.jpg" title="我怀念的"/>
-                                </a>
-                                <h2 class="title">
-                                        <a href="#" title="我怀念的">我怀念的</a>
-                                </h2>
-                                <p class="post-meta">
-                                        <img src="img/ico-time.png"/>2014年12月11日
-                                        <img src="img/ico-comment.png"/>12个评论
-                                </p>
-                                <div class="entry">
-                                        <p>如果你走我走的路，会不会理解这些年来我的痛。如果你听过我的歌，会不会怪我反复吟唱总是你。</p>
-                                        <span>
-                                                <a href="#" class="readmore">>>阅读全文及试听</a>
-                                        </span>
-                                </div>
-                        </div>
-                        <div class="post-bottom">
-                            <div class="poleft">
-                                        <img src="img/a.jpg"/>
-                                <a href="#">流行</a>，<a href="#">故事</a>           
-                                </div>
-                                <div class="poright">
-                                        <img src="img/b.jpg"/>
-                                        <a href="#">00s</a>, <a href="#">国语</a>, <a href="#">曹方</a>,<a href="#">民谣</a>
-                                </div>
-                        </div>
-            </div>
+
 	        <div class="box">
                         <div class="post">
                                 <a href="#"><img src="img/qiutiain.jpg" title="生活总会给你想要的"/></a>
@@ -297,7 +169,33 @@
                                 </div>
                         </div> 
 	        </div>
-                
+                <div class="box">
+                        <div class="post">
+                                <a href="#"><img src="img/3.jpg" title="【Mr.Salt】死亡"/></a>
+                                <h2 class="title"><a href="#">【Mr.Salt】死亡</a></h2>
+                                <p class="post-meta">
+            	                    <img src="img/ico-time.png"/>2014年11月08日
+            	                    <img src="img/ico-comment.png"/>4个评论
+                                </p>
+                                <div class="entry">
+            	                     <p>时间就这样过去多好，在活人心中，没有死亡。</p>
+                                     <span>
+                                  	 <a href="#" class="readmore">阅读全文及试听</a>
+                                     </span>
+                                </div>
+                        </div>
+                        <div class="post-bottom">
+                                <div class="poleft">
+                                        <img src="img/a.jpg"/>
+                		        <a href="#">流行</a>                	
+                                </div>
+                                <div class="poright">
+                                        <img src="img/b.jpg"/>
+                    	                <a href="#">Mr.Salt</a>, <a href="#">NJ 盐先生</a>, <a href="#">一周邻居的耳朵top15</a>,<a href="#">有声电台</a>
+                                </div>
+                        </div>
+	        </div> 
+
 
                 <div class="box">
                         <div class="post">
@@ -344,8 +242,6 @@
 	    </div> 
 
 	    <div class="col-right">
-
-       
 		<div class="widget deng"><br/>
 		    <span>&nbsp;</span>
 		    <span>
@@ -380,7 +276,7 @@
         
 
                 <div class="widget">
-                        <h3>热评文章</h3>
+                        <h2>热评文章</h2>
                         <ul>
                                 <li>
                                         <a href="#">【雪樱の心情】你终于让我不喜欢你了 (51)</a>                 
@@ -405,37 +301,6 @@
                                 </li>
                         </ul>
                 </div>   
-                <div class="widget">
-                        <h3>最活跃的用户</h3>
-                    <ul>
-                            <li>
-                            <a href="#">此人刀法怪异（65）</a>                 
-                        </li>
-                        <li>
-                            <a href="#">为安（60）</a>                   
-                        </li>
-                        <li>
-                            <a href="#">秋夜（59）</a>                  
-                        </li>
-                        <li>
-                            <a href="#">聪明的雪人（39）</a>                    
-                        </li>
-                        <li>
-                            <a href="#">十岁（30）</a>                    
-                        </li>
-                        <li>
-                            <a href="#">陌铭（29）</a>                    
-                        </li>
-                        <li>
-                            <a href="#">请叫我二怪（23）</a>                    
-                        </li>
-                        <li>
-                            <a href="#">爱摄影爱旅行爱电影</a> 
-                        </li>                  
-                            
-                       
-                    </ul>
-                </div>
                 <div class="widget ding">
                        <a href="#">
                                 <img src="img/jingpin.jpg"/>
@@ -456,7 +321,7 @@
                
         </div>
                 <div class="widget">
-                        <h3>友情链接</h3>
+                        <h2>友情链接</h2>
         	        <ul>
         	                <li>
         	         		<a href="#">A8原创音乐网</a>        			
@@ -491,9 +356,6 @@
 
 
 
-
-
-
 	    </div>
       </div>
         <div class="footer">
@@ -510,72 +372,6 @@
     	
         </div>
     </div>
-
-
-
-
-    <script type="text/javascript">
-    function ById(id){
-        return document.getElementById(id);
-       }
-      
-    var navs=ById("focus-nav").getElementsByTagName("li");//选项
-    var conts=ById("focus-cont").getElementsByTagName("li");//图片
-    var index=0;
-
-   // conts[index].style.display="block";
-
-
-    function move(){
-   // clearInterval(timer);
-
-    for(var i=0;i<navs.length;i++){
-        var nav_item=navs[i];
-        nav_item.onmouseover=function (){
-            for(var j=0;j<navs.length;j++){
-                if(navs[j].innerText==this.innerText){
-                    index=j;
-                    break;
-                }
-            }
-            for(var m=0;m<navs.length;m++){
-                conts[m].style.display="none";
-                navs[m].style.background="none";                 
-            }
-            conts[index].style.display="block";
-            navs[index].style.background="#c3c9c3";
-        }
-    }
-}
-  function change(){
-    for(var m=0;m<navs.length;m++){
-        conts[m].style.display="none";
-        navs[m].style.background="none";
-    }
-        if(index==navs.length)
-            index=0;
-        conts[index].style.display="block";
-        navs[index].style.background="#c3c9c3";
-        index++;
-    }
-    change();
- //setInterval('change()',2000);
- 
-   // var timer = setInterval('change()',1000);
-   function autoStart(){
-       timer=setInterval(function(){
-           change();
-       },1000);
-    }
-    function autoStop(){
-        clearInterval(timer);
-    }
-    </script>
-
- 
-
-
-
 
   
 </body>
