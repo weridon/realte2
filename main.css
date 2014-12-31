@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;
 }
 .div{
@@ -10,32 +9,29 @@
 }
 .body{
 	font: 12px Arial,Helvetica,Sans-serif;
-	line-height: 1.2;
 	color: #333333;
 	background-color: #e4e4e4;
+	width: 100%;
 }
 a:link,a:visited{
 	text-decoration:none;
 	color: #000000;
-	background-color:none;
+	
 }   
 a:hover {
 	text-decoration:underline;
-	background-color: none;
 	color: #000000;
 	text-shadow:#ffffff 0px 1px 0px;
 
 }
 a:active {
 	text-decoration:underline;
-	background-color:#FF704D;
 } 
 
 .quan{
-	background:url(img/hh.png);
+	background:url(img/hh.png) repeat;
+	min-width:980px;
 }
-
-
 .header-col{
 	background-color: #232323;
 }
@@ -44,7 +40,6 @@ a:active {
 	width: 960px;
 }
 .navigation{
-	width: 100%;
 	background: url(img/ea.jpg);
 }
 .navigation li{
@@ -57,66 +52,69 @@ a:active {
 	height: 40px;
 	width: 960px;
 	margin: 0 auto 5px;
-	position:relative;
-	top: 12px;
-}
-.nav li{
-    position: relative;
-    top: -10px;
+	line-height: 45px;	
 }
 .nav a{
 	color: #EEEEEE;
 	padding: 0 10px;
-	line-height: 45px;
 	font-size: 16px;
 	text-decoration:none;
 	text-shadow:#333333 0px 1px 0px;
 	font-family: "Microsoft YaHei",Georgia, "Times New Roman", Times, serif;
+
 }
 
 .mit{
-	padding:7px 25px 0px 12px;
-	width: 156px;
-	border-radius:5px;
-	background-color: #e4e4e4;
 	float:right;
 }
-.mit img{
-	float: right;
+input{
+	outline: none;
 }
 
+.word{
+	padding: 7px 25px 8px 12px;
+	font-size: 14px;
+	width: 144px;
+	background: #e3e4e3;
+	border-radius:5px;
+}
+.se{
+	position:relative;
+	top: 4px;
+	right: 25px;
+}
 .secnav{
 	height: 25px;
+	width: 1000px;
+	margin:0 auto;
 	position:relative;
 	bottom: -5px;
 	left: 5px;
-	text-align:center;
-    margin:0 auto;
-    width: 1000px;
 }
 .cat-nav{
-	background:url(img/er.jpg) repeat-x;
+	background:url(img/er.jpg);
 }
 
 .secnav li{
 	float: left;
     box-shadow: 1px 0px  #E4D5D5;
-    height: 19px;
-
+    line-height: 20px;
 }
 .secnav a{
-	width: 50px;
 	color: #000000;
 	font-family: "Microsoft YaHei",Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
 	padding: 0 15px;
-	line-height: 25px;
 	
 }
-.secnav a:link {background:none;}
-.secnav a:visited {background:none;}
-.secnav a:hover {background: url(img/hh.png);text-decoration:none;}
-.secnav a:active {background: url(img/hh.png);}
+
+.secnav a:hover {
+	background: url(img/hh.png);
+	text-decoration:none;
+}
+.secnav a:active {
+	background: url(img/hh.png);
+}
 
 
 
@@ -144,6 +142,9 @@ a:active {
 	padding: 25px 10px 20px;
 	height: 210px;
 }
+.box a{
+	display：inline-block;
+}
 .box a img{
 	border: 1px solid #e2e2e2;
 	padding: 4px;
@@ -155,10 +156,8 @@ a:active {
 }
 
 .title{
-	position: relative;
 	font-size: 20px;
 	font-family:Times,serif;
-	color: #000000;
 }
 .post-meta{
 	font-size: 14px;
@@ -184,7 +183,7 @@ a:active {
 	text-decoration: none;
 	padding: 0px 25px;
 	background: url(img/c.jpg) repeat;
-        border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #999999;
 }
 .post-bottom a{
 	font-family: Verdana,sans-serif;
@@ -213,9 +212,9 @@ a:active {
 }
 
 .more{
-	height: 30px;
-	margin: 15px 0 0 0;
+	height: 15px;
 	text-align: right;
+	font-size: 6px;	
 }
 
 .more a ,.more span{
@@ -232,10 +231,12 @@ a:active {
 
 
 .col-right{
-	display: inline-block;
 	float: right;
 	width:300px;
 	overflow: hidden;
+}
+.col-right a{
+	display: inline-block;
 }
 .widget{
 	position: relative;
@@ -245,7 +246,7 @@ a:active {
 	width: 268px;
 	padding: 0 15px 10px;
 	line-height: 20px;
-	background:url(img/er.jpg) repeat bottom;
+	background:url(img/er.jpg) repeat;
 }
 
 .col-right span{
@@ -260,10 +261,6 @@ a:active {
     padding: 12px 14px 0;
     height: 30px;
     border-bottom: 1px solid #EDEDED;
-}
-.widget h2{
-	border-bottom: 1px solid #EDEDED;
-        height: 35px;
 }
 .textxidget img{
 	width:268px; 
@@ -307,8 +304,42 @@ a:active {
 }
 .fleft{
 	float: left;
-	
 }
 .fright{
 	float: right;
+}
+
+.foncus{
+	margin-bottom: 10px;
+    border: 5px solid #c3c2c3;
+}
+#focus-nav{
+	width: 190px;
+	float: left;
+}
+#focus-nav  li{
+	background: #e3e4e3;
+	margin:20px;
+	list-style: none;
+}
+#focus-cont img{
+	width: 350px;
+	height: 260px;
+}
+#focus-nav a{
+	text-decoration:none;
+	color: #000000;
+}
+#focus-cont li.active{
+	display: block;
+}
+#focus-nav a.hover{
+	color: #f8f8f8;
+}
+.clik
+{
+	width: 100px;
+	height: 100px;
+	background: red;
+	
 }
